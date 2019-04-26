@@ -1,5 +1,6 @@
-var userControlers = require('./userControlers')
-
+var movieControlers = require('./movieControlers')
+var movcatControlers = require('./movcatControlers')
+var categoryControlers = require('./categoryControlers')
 module.exports={
-    userControlers
+    movieControlers,categoryControlers,movcatControlers
 }

@@ -1,5 +1,7 @@
-const userRouter =require('./userRouter')
+const movieRouter =require('./movieRouter')
+const categoryRouter =require('./categoryRouter')
+const movcatRouter =require('./movcatRouter')
 
 module.exports={
-    userRouter
+    movieRouter,categoryRouter,movcatRouter
 }
